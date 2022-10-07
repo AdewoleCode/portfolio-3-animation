@@ -1,0 +1,231 @@
+@media screen and (max-width: 769px) {
+    body {
+        background-color: black;
+        padding-left: 0px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header {
+        display: none;
+    }
+    
+.mob-menu{
+    position: fixed;
+    /* border: 3px solid rgb(202, 202, 37); */
+    width: 300px;
+    display: flex;
+}
+
+    .home {
+        padding: 0 20px;
+    }
+
+    .home h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .home h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .home p {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 15px;
+    
+    }
+
+    /* about */
+    #about {
+        padding: 10px 20px;
+    }
+
+    #about h1{
+        font-size: 33px;
+    }
+    
+
+    .about .row{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .about .row .info{
+        /* border: 2px solid red; */
+        width: 90%;
+        padding:1.2rem 0.7rem;
+    }
+
+    .about .row .info h3{
+        font-size: 16px;
+        padding: 15px 0;    
+    }
+
+    .btn-about {
+        padding: 12px 40px;
+        font-size: 15px;
+    }
+    
+    .btn-about img {
+        width: 27px;
+        height: 21px;
+        top: 1px;
+    }
+
+    .about .row .counter{
+        width: 95%;
+    }
+    
+    .about .row .counter .box{
+        width:200px;
+        padding: 30px;
+        margin:30px;
+    }
+
+    .about .row .counter .box span{
+        font-size: 33px;
+    }
+    
+    .about .row .counter .box h3{
+        font-size: 18px;
+    }
+
+    /* portfolio */
+    #portfolio {
+        padding: 10px 20px;
+    }
+
+    #portfolio h1{
+        font-size: 33px;
+    }
+    .portfolio .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:1rem 0;
+        /* border: 2px solid red; */
+        margin-top: 10px;
+    }
+    
+    .portfolio .box-container .box{
+        padding: 20px 20px;
+        height: 230px;
+        width:250px;
+        margin:1rem 2rem;
+    }
+    
+
+    /* contact me */
+
+    #contact {
+        padding: 10px 10px;
+        min-height: 130vh;
+    }
+
+    #contact h1{
+        font-size: 33px;
+    }
+
+    .contact .row{
+        flex-direction: column;
+    }
+
+    .contact .row .content{
+        width: 90%;
+        padding:2rem 1rem;
+    }
+
+    .contact .row form{
+        width: 90%;
+        padding:1rem;
+        margin:1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact .row form .box{
+        font-size: 0.8rem;
+    }
+
+    #contact .title {
+
+    }
+
+    #contact h3 {
+        font-size: 17px;
+    }
+
+    .icons {
+        gap: 5px;
+    }
+
+    .icons img {
+        /* background-color: rgb(202, 202, 37); */
+        width: 65px;
+        height: 65px;
+    }
+    
+}
+
+@media screen and (max-width: 426px) {
+    
+    .about .row .counter{
+        width: 98%;
+    }
+
+    .mob-menu{
+        position: fixed;
+        /* border: 3px solid rgb(202, 202, 37); */
+        width: 300px;
+        left: 14%;
+        display: flex;
+    }
+
+    .nav-icon{
+        padding: 3px 9px;
+        /* background: rgb(202, 202, 37); */
+        border: 3px solid rgb(202, 202, 37);
+        border-radius: 10px;
+        margin: 0 5px;
+    
+    }
+    
+    .about .row .counter .box{
+        width:160px;
+        padding: 27px;
+        margin:15px 10px;
+    }
+
+    .about .row .counter .box span{
+        font-size: 30px;
+    }
+    
+    .about .row .counter .box h3{
+        font-size: 16px;
+    }
+
+    /* */
+
+    .icons {
+        gap: 5px;
+    }
+
+    .icons img {
+        /* background-color: rgb(202, 202, 37); */
+        width: 55px;
+        height: 55px;
+    }
+
+    .icons .linked {
+        width: 60px;
+        height: 60px;
+    }
+
+
+}
+
+
+
